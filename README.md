@@ -19,3 +19,6 @@ index.html?url=data:image/png;base64,YOUR_BASE64_ENCODED_STRING
 ```
 
 3. The page will load, and the image will be displayed based on the provided base64 string.
+
+> [!WARNING]  
+> This repository meant to run on the web but unfortunately GitHub Pages and Netlify return http 414 status (Request-URI Too Long) so it will work only on local machine (until I find a solution)
